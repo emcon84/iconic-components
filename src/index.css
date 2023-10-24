@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #054a91;
+  --color-primary_hover: #0863be;
+  --color-secondary: #3e7cb1;
+  --color-secondary_hover: #5e91bd;
+  --color-light: #81a4cd;
+  --color-light_hover: #6899d1;
+  --color-disabled: #dbe4ee;
+  --color-enfasis: #f17300;
+  --color-enfasis_hover: #e68a35;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
