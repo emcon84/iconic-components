@@ -54,8 +54,8 @@ function App() {
         minWidth='100px'
         icon={<IconDownload style={{ marginRight: 5 }} />}
         onPress={() => handleLoading()}
-      />
-      <Select
+      /> */}
+      {/* <Select
         options={options}
         onChange={handleSelectChange}
       /> */}
@@ -67,7 +67,12 @@ function App() {
         onChange={setInputValue}
       /> */}
 
-      <DatePicker selectedDate={selectedDate} onChange={handleDateChange} setSelectedDate={setSelectedDate} />
+      <DatePicker
+        selectedDate={selectedDate}
+        onChange={handleDateChange}
+        setSelectedDate={setSelectedDate}
+        mode={'primary'}
+      />
 
     </div>
   )
