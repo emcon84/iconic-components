@@ -1,6 +1,6 @@
 
-import { Button, Input, Select } from './components'
-import { DatePicker } from './components/date-picker/DatePicker';
+import { Button, Input, Select, DatePicker } from './components'
+// import { DatePicker } from './components/date-picker/DatePicker';
 import IconDownload from './components/icons/IconDownload';
 import './index.css'
 
@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div style={{ background: '#fff', height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-      {/* <Button
+      <Button
         type='primary'
         label='Enviar datos'
         loading={loading}
@@ -54,18 +54,18 @@ function App() {
         minWidth='100px'
         icon={<IconDownload style={{ marginRight: 5 }} />}
         onPress={() => handleLoading()}
-      /> */}
-      {/* <Select
+      />
+      <Select
         options={options}
         onChange={handleSelectChange}
-      /> */}
-      {/* <Input
+      />
+      <Input
         placeholder='Ingrese texto'
         type='text'
         mode='primary'
         value={inputValue}
         onChange={setInputValue}
-      /> */}
+      />
 
       <DatePicker
         selectedDate={selectedDate}
